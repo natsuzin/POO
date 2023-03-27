@@ -29,6 +29,6 @@ public class Gerente extends Empregado
     @Override
     public String toString()
     {
-        return String.format("GERENTE %nNome: %s - Salário: %.2 - Departamento: %s", getNome(), getSalario(), getDepartamento());
+        return String.format(super.toString() + " - Departamento: %s", getDepartamento());
     }
 }
