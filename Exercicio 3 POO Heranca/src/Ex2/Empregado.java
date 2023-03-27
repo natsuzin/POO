@@ -39,6 +39,6 @@ public class Empregado
 
     @Override
     public String toString(){
-        return String.format("Nome: %s\n Salário: %f\n", getNome(), getSalario());
+        return String.format("Nome: %s%n Salário: %.2f%n", getNome(), getSalario());
     }
 }
