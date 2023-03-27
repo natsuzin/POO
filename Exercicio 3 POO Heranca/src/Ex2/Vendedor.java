@@ -34,6 +34,6 @@ public class Vendedor extends Empregado
   @Override
   public String toString()
   {
-  return String.format(super.toString() + "%nPercentual: %.2f%n Salário com comissão: %.2f%n", getPercentualComisao()/100, calcularSalario());
+  return String.format(super.toString() + " - Percentual: %.2f - Salário com comissão: %.2f%n", getPercentualComisao()/100, calcularSalario());
   }
 }
