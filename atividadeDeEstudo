@@ -21,7 +21,7 @@ PARTIR DA QUAL OUTRAS CLASSE PODEM HERDAR E ASSIM COMPÁRTILHAR UM DESIGN COMUM.
 É A CAPACIDADE DE UM OBJETO DE ASSUMIR DIFERENTES FORMAS, OU SEJA, UMA MESMA OPERAÇÃO 
 PODE SER REALIZADA POR DIFERENTES OBJETOS DE CLASSES DIFERENTES.
 
-----------------Aonde se aplica o Princípio do Menor Privilégio?
+----------------Onde se aplica o Princípio do Menor Privilégio?
 EM PROGRAMAS MAIS ROBUSTOS EVITANDO QUE O CÓDIGO MODIFIQUE ACIDENTALMENTE OS VALORES 
 DAS VARIÁVEIS E CHAME MÉTODOS QUE NÃO DEVERIAM ESTAR ACESSÍVEIS.
 
@@ -35,9 +35,6 @@ DE CLASSES CONCRETAS.
 ----------------O que é sobrecarga de operações? Obs.: classificada como polimorfismo ad-hoc ou aparente. 
 CONSISTE EM PERMITIR MAIS DE UM MÉTODO COM O MESMO NOME DENTRO DA MESMA CLASSE.
 
-----------------Quais as orientações para uso adequado de sobrecarga?
-
-
 ---------------Defina os relacionamentos de associação, agregação e composição. 
 ASSOCIAÇÃO: RELAÇÃO ENTRE OBJETOS. DEVE-SE NOMEAR PARA ESCLARECER O SIGNIFICADO DA ASSOCIAÇÃO, O QUAL PRECISA SER VERBALIZADO. (SÍMBOLO = SETA)
 AGREGAÇÃO: ESPECIALIZAÇÃO DE UMA ASSOCIAÇÃO, HAVENDO CONEXÃO DE CONTENÇÃO E POSSUI UM RELACIONAMENTO TODO-PARTE FRACO. (SÍMBOLO = LOSANGO VAZIO)
@@ -49,10 +46,6 @@ CARDINALIDADE: NÚMERO DE ELEMENTOS EM UM CONJUNTO.
 
 ---------------Quando usar o relacionamento de dependência? 
 QUANDO UM OBJETO PRECISA DE ALGO PARA FUCNIONAR.
-
----------------Explique a necessidade de evoluir um relacionamento de associação para um relacionamento de classe de
-associação. Quais as implicações disso na implementação? 
-
 
 ---------------O que é interface?
 SE DÁ A PARTIR DE UMA CLASSE QUE SÓ POSSUI MÉTODOS ABSTRATOS.
@@ -81,9 +74,6 @@ implements Interface1, Interface2 {
 ---------------Qual a diferença entre classe abstrata e interface?
 UMA INTERFACE NÃO PODE CONTER QUALQUER TIPO DE CÓDIGO, APENAS A ASSINATURA DE UM MÉTODO. 
 JÁ UMA CLASSE ABSTRATA, PODE CONTER MÉTODOS COMPLETOS OU INCOMPLETOS.
-
-
-
 
 ----------------OBSERVAÇÕES
 Os construtores e métodos estáticos não podem ser declarados abstract
