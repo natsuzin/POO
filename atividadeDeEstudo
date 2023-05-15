@@ -24,7 +24,7 @@ O POLIMORFISMO PERMITE QUE CLASSES ABSTRATAS CONSIGAM RECEBER COMPORTAMENTOS ATR
 DE CLASSES CONCRETAS.
 
 ----------------O que é ligação tardia (ou dinâmica ou em tempo de execução) no contexto da orientação a objetos?
-É A OCORRÊNCIA DE QUANDO O MÉTODO A SER INVOCADO É DEFINIDO DURANTE A EXECUÇÃO DO PROGRAMA.
+É QUANDO O MÉTODO A SER INVOCADO É DEFINIDO DURANTE A EXECUÇÃO DO PROGRAMA.
 
 ----------------O que é sobrecarga de operações? Obs.: classificada como polimorfismo ad-hoc ou aparente. 
 Consiste em permitir mais de um método com o mesmo nome dentro da mesma classe.
