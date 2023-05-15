@@ -57,6 +57,27 @@ associação. Quais as implicações disso na implementação?
 ---------------O que é interface?
 SE DÁ A PARTIR DE UMA CLASSE QUE SÓ POSSUI MÉTODOS ABSTRATOS.
 
+COMO DECLARAR:
+public interface MyInterface {
+  int getSize();
+  void setSize(int param);
+}
+public class MyClass implements MyInterface{ 
+  private int size;
+  public int getSize() { 
+    return size;
+  } 
+  public void setSize(int tam) { 
+    size = tam; 
+  } 
+}
+
+PARA IMPLEMENTAR MAIS DE UMA INTERFACE:
+public class MyClass extends SuperClass
+implements Interface1, Interface2 {
+  // código interno
+} 
+
 ---------------Qual a diferença entre classe abstrata e interface?
 UMA INTERFACE NÃO PODE CONTER QUALQUER TIPO DE CÓDIGO, APENAS A ASSINATURA DE UM MÉTODO. 
 JÁ UMA CLASSE ABSTRATA, PODE CONTER MÉTODOS COMPLETOS OU INCOMPLETOS.
