@@ -1,0 +1,62 @@
+----------------O que é uma classe abstrata? Como este conceito é operacionalizado em Java? 
+É UMA CLASSE QUE NUNCA VAI GERAR OBJETOS DENTRO DO SISTEMA, OU SEJA, É INCOMPLETA. 
+AS SUBCLASSES DEVEM DECLARAR AS "PARTES AUSENTES" PARA QUE SE TORNEM CLASES "CONCRETAS", 
+A PARTIR DAS QUAIS PODE-SE INSTANCIAR OBJETOS. NA UML, ELA TEM SEU NOME EM ITÁLICO.
+
+----------------Qual a diferença entre uma classe abstrata e uma classe concreta?
+CLASSES ABSTRATAS NÃO PODEM SER INSTANCIADAS COMO AS CONCRETAS.
+
+----------------Por que (e/ou quando) utilizar classes abstratas? 
+PARA DEFINIR CLASSES GENÉRICAS PARA REPRESENTAR UM SUPERCONJUNTO DE SUBCLASSES, 
+QUE VÃO REPRESENTAR OS OBJETOS EM SI, OU SEJA, FORNECE I,A SUPERCLASSE APROPRIADA A
+PARTIR DA QUAL OUTRAS CLASSE PODEM HERDAR E ASSIM COMPÁRTILHAR UM DESIGN COMUM.
+
+----------------O que é polimorfismo? 
+É A CAPACIDADE DE UM OBJETO DE ASSUMIR DIFERENTES FORMAS, OU SEJA, UMA MESMA OPERAÇÃO 
+PODE SER REALIZADA POR DIFERENTES OBJETOS DE CLASSES DIFERENTES.
+
+----------------Aonde se aplica o Princípio do Menor Privilégio?
+EM PROGRAMAS MAIS ROBUSTOS EVITANDO QUE O CÓDIGO MODIFIQUE ACIDENTALMENTE OS VALORES 
+DAS VARIÁVEIS E CHAME MÉTODOS QUE NÃO DEVERIAM ESTAR ACESSÍVEIS.
+
+----------------Qual a relação entre classes abstratas e polimorfismo? 
+O POLIMORFISMO PERMITE QUE CLASSES ABSTRATAS CONSIGAM RECEBER COMPORTAMENTOS ATRAVÉS 
+DE CLASSES CONCRETAS.
+
+----------------O que é ligação tardia (ou dinâmica ou em tempo de execução) no contexto da orientação a objetos?
+É A OCORRÊNCIA DE QUANDO O MÉTODO A SER INVOCADO É DEFINIDO DURANTE A EXECUÇÃO DO PROGRAMA.
+
+----------------O que é sobrecarga de operações? Obs.: classificada como polimorfismo ad-hoc ou aparente. 
+Consiste em permitir mais de um método com o mesmo nome dentro da mesma classe.
+
+----------------Quais as orientações para uso adequado de sobrecarga?
+
+
+---------------Defina os relacionamentos de associação, agregação e composição. 
+ASSOCIAÇÃO: RELAÇÃO ENTRE OBJETOS. DEVE-SE NOMEAR PARA ESCLARECER O SIGNIFICADO DA ASSOCIAÇÃO, O QUAL PRECISA SER VERBALIZADO. (SÍMBOLO = SETA)
+AGREGAÇÃO: ESPECIALIZAÇÃO DE UMA ASSOCIAÇÃO, HAVENDO CONEXÃO DE CONTENÇÃO E POSSUI UM RELACIONAMENTO TODO-PARTE FRACO. (SÍMBOLO = LOSANGO VAZIO)
+COMPOSIÇÃO: FORMA MAIS FORTE DE AGREGAÇÃO. RELACIONAMENTO DE CONTENÇÃO DO TIPO "TEM UM" OU "TODO-PARTE", ONDE AS PARTES NÃO PODEM SER COMPARTILHADAS. (SÍMBOLO = LOSANGO PREENCHIDO)
+
+---------------O que são os conceitos de multiplicidade e cardinalidade? 
+MULTIPLICIDADE: ESPECIFICAÇÃO DO INTERVALO DE VALORES DE CARDINALIDADE PERMITIDAS QUE UM CONJUNTO PODE ASSUMIR.
+CARDINALIDADE: NÚMERO DE ELEMENTOS EM UM CONJUNTO.
+
+---------------Quando usar o relacionamento de dependência? 
+QUANDO UM OBJETO PRECISA DE ALGO PARA FUCNIONAR.
+
+---------------Explique a necessidade de evoluir um relacionamento de associação para um relacionamento de classe de
+associação. Quais as implicações disso na implementação? 
+
+
+---------------O que é interface?
+SE DÁ A PARTIR DE UMA CLASSE QUE SÓ POSSUI MÉTODOS ABSTRATOS.
+
+---------------Qual a diferença entre classe abstrata e interface?
+UMA INTERFACE NÃO PODE CONTER QUALQUER TIPO DE CÓDIGO, APENAS A ASSINATURA DE UM MÉTODO. 
+JÁ UMA CLASSE ABSTRATA, PODE CONTER MÉTODOS COMPLETOS OU INCOMPLETOS.
+
+
+
+
+----------------OBSERVAÇÕES
+Os construtores e métodos estáticos não podem ser declarados abstract
