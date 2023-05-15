@@ -27,7 +27,7 @@ DE CLASSES CONCRETAS.
 É QUANDO O MÉTODO A SER INVOCADO É DEFINIDO DURANTE A EXECUÇÃO DO PROGRAMA.
 
 ----------------O que é sobrecarga de operações? Obs.: classificada como polimorfismo ad-hoc ou aparente. 
-Consiste em permitir mais de um método com o mesmo nome dentro da mesma classe.
+CONSISTE EM PERMITIR MAIS DE UM MÉTODO COM O MESMO NOME DENTRO DA MESMA CLASSE.
 
 ----------------Quais as orientações para uso adequado de sobrecarga?
 
