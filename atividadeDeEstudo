@@ -2,6 +2,12 @@
 É UMA CLASSE QUE NUNCA VAI GERAR OBJETOS DENTRO DO SISTEMA, OU SEJA, É INCOMPLETA. 
 AS SUBCLASSES DEVEM DECLARAR AS "PARTES AUSENTES" PARA QUE SE TORNEM CLASES "CONCRETAS", 
 A PARTIR DAS QUAIS PODE-SE INSTANCIAR OBJETOS. NA UML, ELA TEM SEU NOME EM ITÁLICO.
+-Classe abstrata:
+public abstract class NomeClasse {
+...
+}
+-Método abstrato:
+public abstract void draw();
 
 ----------------Qual a diferença entre uma classe abstrata e uma classe concreta?
 CLASSES ABSTRATAS NÃO PODEM SER INSTANCIADAS COMO AS CONCRETAS.
